@@ -1,0 +1,26 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "cma.half",
+  "names": {
+    "en": "50 % paper on backer",
+    "de": "50-%-Papier auf Träger",
+    "fr": "Papier 50 % sur support"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["cma"],
+  "labelFamily": "T",
+  "count": {
+    "class": "half"
+  },
+  "art": {
+    "kind": "board",
+    "board": "cma",
+    "half": true,
+    "backer": true
+  },
+  "physical": {
+    "width": 230,
+    "height": 360
+  }
+}

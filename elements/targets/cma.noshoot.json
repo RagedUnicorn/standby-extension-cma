@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "cma.noshoot",
+  "names": {
+    "en": "Non-shoot",
+    "de": "Non-shoot",
+    "fr": "Non-shoot"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["cma"],
+  "labelFamily": null,
+  "count": {
+    "class": "noshoot"
+  },
+  "art": {
+    "kind": "board",
+    "board": "cma",
+    "noShoot": "x"
+  },
+  "physical": {
+    "width": 460,
+    "height": 720
+  }
+}

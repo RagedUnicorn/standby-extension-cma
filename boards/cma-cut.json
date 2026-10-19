@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/board.json",
+  "id": "cma-cut",
+  "discipline": "cma",
+  "width": 460,
+  "height": 415,
+  "outline": [[145, 0], [315, 0], [460, 150], [460, 415], [0, 415], [0, 150]],
+  "covers": {
+    "bottom-body": {
+      "a": [0, 160],
+      "b": [460, 160]
+    },
+    "bottom-body-half": {
+      "a": [0, 400],
+      "b": [460, 400]
+    },
+    "bottom-upwards-left": {
+      "a": [0, 150],
+      "b": [460, 570]
+    },
+    "bottom-upwards-right": {
+      "a": [460, 150],
+      "b": [0, 570]
+    }
+  },
+  "noShoot": {
+    "lines": [[[75, 235], [385, 400]], [[385, 235], [75, 400]]],
+    "width": 41.667,
+    "linecap": "round"
+  },
+  "source": {
+    "repo": "RagedUnicorn/shooting-sports-targets",
+    "file": "tools/affinity_scripts/cma_master_generate.js",
+    "commit": "e2b6677fec8dc5a1c2f659c52993bd6f1a5f4a8c",
+    "note": "figure cut at y = 415 (CONFIG.cut.cutAt)"
+  }
+}

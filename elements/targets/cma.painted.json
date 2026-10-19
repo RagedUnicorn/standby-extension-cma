@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "cma.painted",
+  "names": {
+    "en": "Painted hard cover",
+    "de": "Bemalte Hard Cover",
+    "fr": "Hard cover peinte"
+  },
+  "category": "targets",
+  "family": "target",
+  "disciplines": ["cma"],
+  "labelFamily": "T",
+  "count": {
+    "class": "paper"
+  },
+  "art": {
+    "kind": "board",
+    "board": "cma",
+    "paint": "bottom-body-half"
+  },
+  "variants": ["bottom-body-half", "bottom-body", "bottom-upwards-left", "bottom-upwards-right"],
+  "variantNames": {
+    "bottom-body-half": {
+      "en": "Lower half painted",
+      "de": "Untere Hälfte bemalt",
+      "fr": "Moitié inférieure peinte"
+    },
+    "bottom-body": {
+      "en": "Body painted",
+      "de": "Körper bemalt",
+      "fr": "Corps peint"
+    },
+    "bottom-upwards-left": {
+      "en": "Diagonal, left up",
+      "de": "Diagonal, links oben",
+      "fr": "En diagonale, gauche en haut"
+    },
+    "bottom-upwards-right": {
+      "en": "Diagonal, right up",
+      "de": "Diagonal, rechts oben",
+      "fr": "En diagonale, droite en haut"
+    }
+  },
+  "physical": {
+    "width": 460,
+    "height": 720
+  }
+}

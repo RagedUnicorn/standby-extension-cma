@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/extension.json",
+  "format": 1,
+  "id": "cma",
+  "names": {
+    "en": "CMA",
+    "de": "CMA",
+    "fr": "CMA"
+  },
+  "version": "1.0.0",
+  "standby": "0.1.0",
+  "repository": "RagedUnicorn/standby-extension-cma",
+  "licence": "MIT",
+  "disciplines": ["cma"],
+  "stageDefaults": {
+    "cma": {
+      "board": "cma",
+      "trapTarget": "cma.cut"
+    }
+  },
+  "order": ["cma.paper", "cma.half", "cma.noshoot", "cma.painted", "cma.cut", "mover.flipper"]
+}

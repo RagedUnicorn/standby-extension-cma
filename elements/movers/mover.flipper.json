@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/RagedUnicorn/standby-extension-kit/master/schema/v1/element.json",
+  "id": "mover.flipper",
+  "names": {
+    "en": "Flipper",
+    "de": "Flipper",
+    "fr": "Flipper"
+  },
+  "category": "movers",
+  "family": "mover",
+  "disciplines": ["cma"],
+  "labelFamily": "T",
+  "count": {
+    "class": "paper",
+    "boards": 2
+  },
+  "art": {
+    "kind": "flipper",
+    "boardCover": {
+      "cma": "bottom-body-half",
+      "idpa": "bottom"
+    }
+  },
+  "physical": {
+    "width": 920,
+    "height": 720
+  }
+}
