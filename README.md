@@ -1,3 +1,5 @@
+![standby-extension-cma](docs/standby_extension_cma_banner.svg)
+
 # Standby extension: CMA
 
 What [Standby](https://github.com/RagedUnicorn/standby) draws for CMA stages:
