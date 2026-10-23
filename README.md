@@ -19,6 +19,7 @@ An element is its file `elements/<category>/<id>.json`. An element drawn from fi
 
 - **See your changes**: `npx https://github.com/RagedUnicorn/standby-extension-kit/releases/download/v0.1.0/standby-extension-kit-0.1.0.tgz view` opens the viewer at http://localhost:4310 and reloads it as you save. To see them in Standby, link this folder: Settings, Extensions, Link a folder.
 - **Check them**: `npx https://github.com/RagedUnicorn/standby-extension-kit/releases/download/v0.1.0/standby-extension-kit-0.1.0.tgz validate`, as the CI does.
+- **In IntelliJ**: the run configurations View and Validate run the two commands above.
 - **A pull request** gets a preview of the viewer with each changed element before and after, linked in a comment.
 - **Ids never change** once stages use them: Standby finds placed elements by id.
 
